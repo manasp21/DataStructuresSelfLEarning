@@ -1,3 +1,6 @@
-int a;
-a = 2;
-printf("%d",a);
+#include <stdio.h>
+int main() {
+    int a = 12;
+    printf("%d",a);
+
+}
