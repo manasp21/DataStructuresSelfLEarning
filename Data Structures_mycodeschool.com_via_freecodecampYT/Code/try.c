@@ -10,7 +10,8 @@ int main(){
     struct Node* A;
     A = NULL;
     struct Node*temp = (struct Node*)malloc(sizeof(struct Node));
-    temp ->data;
+    temp ->data = 2;
     (*temp).link = NULL;
+    A = temp;
     return 0;
 }
